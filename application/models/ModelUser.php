@@ -34,4 +34,3 @@ class ModelUser extends CI_Model
         $this->db->limit(10, 0);
         return $this->db->get();
     }
-}
