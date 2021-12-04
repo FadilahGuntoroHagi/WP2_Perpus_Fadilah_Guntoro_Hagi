@@ -166,4 +166,4 @@ akun member anda sudah dibuat. Silahkan Aktivasi Akun anda</div>');
     ');
     redirect('autentifikasi');
   }
-
+}
