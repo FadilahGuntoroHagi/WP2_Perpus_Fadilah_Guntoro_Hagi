@@ -212,3 +212,4 @@ class Buku extends CI_Controller
             'numeric'       => 'Yang anda masukan bukan angka.'
         ]);
     }
+}
