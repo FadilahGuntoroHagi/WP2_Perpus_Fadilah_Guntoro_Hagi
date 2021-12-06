@@ -174,7 +174,7 @@ class Buku extends CI_Controller
 
     function hapusKategori() // 
     {
-        $where = ['id' => $this->uri->segment(3)];
+        $where = ['id_kategori' => $this->uri->segment(3)];
         $this->ModelBuku->hapusKategori($where);
         redirect('buku/kategori');
     }
